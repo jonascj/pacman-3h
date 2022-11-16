@@ -8,6 +8,13 @@ from pacman import PacMan
 from ghost import Ghost
 from level import Level
 
+## Sound/Music ##
+pg.mixer.pre_init(44100, 32, 2, 1024)
+pg.mixer.init()
+pg.mixer.music.load("papa ghost.wav")
+pg.mixer.music.set_volume(0.2)
+pg.mixer.music.play(loops = 1)
+
 ## Setup ##
 pg.init()
 

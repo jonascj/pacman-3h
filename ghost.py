@@ -10,7 +10,7 @@ class Ghost:
         self.sound_move0 = pg.mixer.Sound("sounds/pacman_move_0.wav")
         self.sound_move1 = pg.mixer.Sound("sounds/pacman_move_1.wav")
         self.sound_move0.set_volume(0.5)
-        self.sound_move1.set_volume(0.5)
+
 
         self.col = col
         self.row = row
